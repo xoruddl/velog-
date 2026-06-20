@@ -8,5 +8,5 @@
 - [홈서버 구축기 - 2](https://velog.io/@eta_kyung/%ED%99%88%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95%EA%B8%B0-2)
 - [홈서버 구축기 - 1](https://velog.io/@eta_kyung/%ED%99%88%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95%EA%B8%B0-1)
 - [퀵정렬&lpar;quick_sort&rpar;](https://velog.io/@eta_kyung/%ED%80%B5%EC%A0%95%EB%A0%ACquicksort)
-- [도커&lpar;docker&rpar;가 뭐야?](https://velog.io/@eta_kyung/%EB%8F%84%EC%BB%A4docker%EA%B0%80-%EB%AD%90%EC%95%BC)
+- [Docker &lpar;0&rpar; - Docker는 어떤 기술인가](https://velog.io/@eta_kyung/%EB%8F%84%EC%BB%A4docker%EA%B0%80-%EB%AD%90%EC%95%BC)
 <!-- BLOG-POST-LIST:END -->
