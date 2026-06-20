@@ -1,0 +1,23 @@
+name: Latest blog post workflow
+on:
+  schedule:
+    # 매일 자정(UTC 00:00)에 자동으로 실행 (한국 시간 오전 9시)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 필요할 때 수동으로도 실행할 수 있게 설정
+
+permissions:
+  contents: write # 깃허브가 내 레포지토리에 글을 쓰고 커밋할 수 있는 권한
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Pull in velog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # 본인의 벨로그 ID를 입력하세요 (예: @username)
+          feed_list: "https://api.velog.io/rss/@eta_kyung"
