@@ -23,3 +23,4 @@ jobs:
           feed_list: "https://api.velog.io/rss/@eta_kyung"
           committer_username: "xoruddl"
           committer_email: "taeyun1411@gmail.com"
+          max_post_count: 10
