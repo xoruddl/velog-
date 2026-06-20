@@ -21,3 +21,5 @@ jobs:
         with:
           # 본인의 벨로그 ID를 입력하세요 (예: @username)
           feed_list: "https://api.velog.io/rss/@eta_kyung"
+          committer_username: "xoruddl"
+          committer_email: "taeyun1411@gmail.com"
